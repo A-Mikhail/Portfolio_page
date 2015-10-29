@@ -14,7 +14,8 @@
 }
 
 .about-section {
-		background-color: #0f0f0f;
+		background-image: url(../img/about-section/background.svg);
+		background-size: cover;
 }
 
 .portfolio-item {
