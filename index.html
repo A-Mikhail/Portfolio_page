@@ -7,6 +7,7 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500,300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+
 	<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/reset.css">
@@ -71,11 +72,10 @@
 
 		<div class="vertical-center">
 			<div class="container">
-				<div class="row">
-
+				<div class="row row-centered">
 
 					<!-- freecodecamp button -->
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4 col-xs-8 col-centered">
 						<div class="btn">
 							<a href="http://www.freecodecamp.com/a-mikhail">
 								<button type="button" class="img-btn press-start-2p-font "> freeCodeCamp </button>
@@ -84,7 +84,7 @@
 					</div>
 
 					<!-- twitter button -->
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4 col-xs-8 col-centered">
 						<div class="btn">
 							<a href="https://twitter.com/MikhailAdamenko">
 								<button type="button" class="img-btn press-start-2p-font "> Twitter </button>
@@ -93,7 +93,7 @@
 					</div>
 
 					<!-- linkedin button -->
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4 col-xs-8 col-centered">
 						<div class="btn">
 							<a href="https://www.linkedin.com/pub/mikhail-adamenko/103/8a3/7b7">
 								<button type="button" class="img-btn press-start-2p-font "> Linkedin </button>
@@ -102,7 +102,7 @@
 					</div>
 
 					<!-- github button -->
-					<div class="col-md-3">
+					<div class="col-md-3 col-sm-4 col-xs-8 col-centered">
 						<div class="btn">
 							<a href="https://github.com/A-Mikhail">
 								<button type="button" class="img-btn press-start-2p-font "> GitHub </button>
@@ -129,13 +129,35 @@
 		</div>
 
 		<div class="vertical-center">
-			<div class="container">
-				<div class="row">
+			<div class="container portfolio-block">
+				<div class="row row-centered">
 
-					<div class="col-md-2 portfolio-item" onclick="window.location='http://google.com';">
-						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
+					<!-- First example in portfolio - EyeDetection -->
+					<div class="col-md-2 col-sm-5 col-centered portfolio-item" onclick="window.location='https://github.com/A-Mikhail/eyeDetection';">
+						<h3 class="roboto-font portfolio-head-text"> EyeDetection </h3>
 
+						<img class="img-responsive portfolio-img" src="http://i.imgur.com/pubJVQs.png" alt="EyeDetection Logo" width="120px" height="120px">
+
+						<p class="roboto-font portfolio-text">C++ GUI program created for college diploma project.
+							EyeDetection using haarcascade, written on c++ language in Qt,
+							uses OpenCV library.
+						</p>
+					</div>
+
+					<!-- Second example in portfolio - Portfolio webpage -->
+					<div class="col-md-2 col-sm-5 col-centered portfolio-item" onclick="window.location='https://github.com/A-Mikhail/portfolio-webpage';">
+						<h3 class="roboto-font portfolio-head-text"> Portfolio </h3>
+
+						<img class="img-responsive portfolio-img" src="http://i.imgur.com/HdUMu1M.png" alt="Portfolio Webpage" width="120px" height="50px">
+
+						<p class="roboto-font portfolio-text">Portfolio webpage is written
+							for the task "Build a Personal Portfolio Webpage".</p>
+					</div>
+
+					<div class="col-md-2 col-sm-5 col-centered portfolio-item" onclick="window.location='http://google.com';">
 						<h3 class="roboto-font portfolio-head-text"> Project Name </h3>
+
+						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
 
 						<p class="roboto-font portfolio-text">Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit.
@@ -143,10 +165,10 @@
 							urna varius vitae.</p>
 					</div>
 
-					<div class="col-md-2 portfolio-item" onclick="window.location='http://google.com';">
-						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
-
+					<div class="col-md-2 col-sm-5 col-centered portfolio-item" onclick="window.location='http://google.com';">
 						<h3 class="roboto-font portfolio-head-text"> Project Name </h3>
+
+						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
 
 						<p class="roboto-font portfolio-text">Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit.
@@ -154,39 +176,16 @@
 							urna varius vitae.</p>
 					</div>
 
-					<div class="col-md-2 portfolio-item" onclick="window.location='http://google.com';">
-						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
-
+					<div class="col-md-2 col-sm-5 col-centered portfolio-item" onclick="window.location='http://google.com';">
 						<h3 class="roboto-font portfolio-head-text"> Project Name </h3>
+
+						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
 
 						<p class="roboto-font portfolio-text">Lorem ipsum dolor sit amet,
 							consectetur adipiscing elit.
 							Nam viverra euismod odio, gravida pellentesque
 							urna varius vitae.</p>
 					</div>
-
-					<div class="col-md-2 portfolio-item" onclick="window.location='http://google.com';">
-						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
-
-						<h3 class="roboto-font portfolio-head-text"> Project Name </h3>
-
-						<p class="roboto-font portfolio-text">Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit.
-							Nam viverra euismod odio, gravida pellentesque
-							urna varius vitae.</p>
-					</div>
-
-					<div class="col-md-2 portfolio-item" onclick="window.location='http://google.com';">
-						<img class="img-responsive portfolio-img" src="https://i.imgur.com/qTEDubS.png" alt="">
-
-						<h3 class="roboto-font portfolio-head-text"> Project Name </h3>
-
-						<p class="roboto-font portfolio-text">Lorem ipsum dolor sit amet,
-							consectetur adipiscing elit.
-							Nam viverra euismod odio, gravida pellentesque
-							urna varius vitae.</p>
-					</div>
-
 				</div> <!-- row -->
 			</div> <!-- container -->
 		</div> <!-- vertical-center -->
@@ -210,59 +209,48 @@
 			<div class="container">
 				<div class="row">
 
-							<div class="media">
-									<div class="media-left">
-											<a href="#">
-													<img src="https://i.imgur.com/qTEDubS.png" alt="image" class="img-circle img-responsive">
-											</a>
-									</div>
-									<div class="media-body">
-											<h4 class="media-heading">Mikhail Adamenko</h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-												sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-												Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-												Duis aute irure dolor in reprehenderit in voluptate velit esse
-												cillum dolore eu fugiat nulla pariatur.
-												Excepteur sint occaecat cupidatat non proident,
-												sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-									</div>
-							</div> <!-- media -->
+					<div class="media">
+						<div class="media-left">
+							<img src="https://avatars0.githubusercontent.com/u/5106729?v=3&s=460" alt="avatar" width="140px" height="140px" 			       class="img-responsive img-thumbnail">
 
-							<address class="text-right">
-								<strong>Twitter, Inc.</strong><br>
-								795 Folsom Ave, Suite 600<br>
-								San Francisco, CA 94107<br>
-								<abbr title="Phone">P:</abbr> (123) 456-7890
-							</address>
+							<p class="text-muted"> It's me! Testing new web-camera for diploma program in 4am </p>
+						</div>
 
-							<address class="text-right">
-								<strong>Full Name</strong><br>
-								<a href="mailto:#">first.last@example.com</a>
-							</address>
+						<div class="media-body">
+							<h1 class="about-header-text roboto-font">About Mikhail Adamenko</h1>
+								<br>
+							<p class="about-main-text roboto-font"> Hi all! My name is Mikhail Adamenko. I live in
+								<a href="https://goo.gl/maps/PfA9i22PW9G2"> Kazakhstan </a> <a href="https://en.wikipedia.org/wiki/Almaty"> Almaty city.</a>
+								Born 5 December 1995 years. Know web-development and little
+								C++ and C#. </p>
+								<br>
+							<p class="about-main-text roboto-font"> Graduated from college In July 2015. Love play games on PC (my favorite games gothic 2, 3). My <a href="http://steamcommunity.com/id/MikhailAdamenko"> Steam profile </a> add to friends if you want.
+							</p>
+								<br>
+							<p class="about-main-text roboto-font"> This is all. </p>
+								<br>
+							<p class="about-main-text roboto-font"> This site will be updated sometimes. You may check updates on my <a href="https://github.com/A-Mikhail/">github page</a> and also use all code, all images as you want.
+							</p>
+								<br>
+							<p class="about-main-text roboto-font">Thanks for reading. </p>
+								<br>
+						</div>
+					</div> <!-- media -->
 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-								sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-								Duis aute irure dolor in reprehenderit in voluptate velit esse
-								cillum dolore eu fugiat nulla pariatur.
-								Excepteur sint occaecat cupidatat non proident,
-								sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+				</div> <!-- row -->
+			</div> <!-- container -->
+		</div> <!-- vertical-center -->
 
-					</div> <!-- row -->
-				</div> <!-- container -->
-			</div> <!-- vertical-center -->
-
-			<div class="bottom-about-section">
-				<img src="img/about-section/about-section-bottom.svg" class="img-responsive img-about-section-bottom" alt="rock-bottom">
-			</div>
-
+		<div class="bottom-about-section">
+			<img src="img/about-section/about-section-bottom.svg" class="img-responsive img-about-section-bottom" alt="rock-bottom">
+		</div>
 	</section> <!-- about-section -->
 
 	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js'></script>
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.1/jquery.scrollTo.min.js'></script>
 
 	<script src="js/index.js"></script>
 </body>
-
 </html>
